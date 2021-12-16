@@ -32,7 +32,7 @@ html,body {
     font-size: 4em;
     padding-right: 25px;
     padding-left: 25px;
-    margin-right: 25%;
+    margin-right: 5%;
     color: black;
     border-width: 10px 4px;
     border-radius: 10px 30px;
@@ -324,3 +324,21 @@ h4 {
 font-family: 'Lato', sans-serif; */
 
 /* Gradient:#8e9eab to #eef2f3 */
+
+/* Pour la page : Qui suis-je ? */
+
+.QuiFirst {
+  background-image: url(Personal/img/Back.png);  
+  padding-bottom: 10%;
+}
+
+.QuiMoi  {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.822);
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+
+}
