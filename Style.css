@@ -380,6 +380,7 @@ font-family: 'Lato', sans-serif; */
   box-shadow: inset 2px 2px 20px #8e9eab;
 }
 
+
 h3 {
   font-family: 'Dongle', sans-serif;
   font-size: 4em;
@@ -402,8 +403,13 @@ h3 {
   background-image: linear-gradient(to left, #eef2f3, lightgrey );
   margin-right: 3%;
   box-shadow: 2px 2px 15px #8e9eab;
-
+  transition-duration: 0.7s;
 }  
+
+.flex-child-text:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
+}
 
 .flex-child-image{
   flex: 1;
@@ -426,9 +432,13 @@ h3 {
     padding-left: 50px;
 }
 
+
+
 .QuiThird {
   background-image: linear-gradient(to right, #8e9eab, #eef2f3);
   padding-bottom: 7%;
+  border-bottom: 5px solid;
+  border-color: #8e9eab;
 }
 
 .flex-grid-thirds {
@@ -442,6 +452,12 @@ h3 {
   margin-top: 1%;
   margin-left: 2%;
   margin-right: 2%;
+  transition-duration: 0.7s;
+}
+
+.flex-grid-thirds .col:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .col-text {
@@ -487,11 +503,19 @@ h3 {
   background-image: linear-gradient(to left, #eef2f3, lightgrey );
   box-shadow: 2px 2px 15px #8e9eab;
   margin-bottom: 2%;
+  transition-duration: 0.7s;
+}
+
+.interest-text-f:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .interest-image-f { 
   grid-area: interest-image-f;
-  background-color: aqua;
+  border-inline: 5px solid;
+  border-inline-color: #8e9eab;
+  background-color: #8e9eab;
   margin-bottom: 10%;
   margin-right: 3%;
 }
@@ -500,11 +524,20 @@ h3 {
   grid-area: interest-text-s;
   background-image: linear-gradient(to right, #8e9eab, #eef2f3);
   box-shadow: 2px 2px 15px #8e9eab;
+  transition-duration: 0.7s;
 }
+
+.interest-text-s:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
+}
+
 
 .interest-image-s { 
   grid-area: interest-image-s;
-  background-color: violet;
+  border-inline: 5px solid;
+  border-inline-color: #8e9eab;
+  background-color: #8e9eab;
   margin-top:10%;
   margin-left: 3%;
 }
@@ -541,7 +574,8 @@ h3 {
   padding-left: 3%;
   padding-bottom: 2%;
   background-image: linear-gradient(to right, #8e9eab, #eef2f3);
-
+  border-bottom: 5px solid;
+  border-color: #8e9eab;
 }
 
 .interest-video-info { 
@@ -549,6 +583,12 @@ h3 {
   background-image: linear-gradient(to left, #eef2f3, lightgrey );
   box-shadow: 2px 2px 15px #8e9eab;
   margin-right: 2%;
+  transition-duration: 0.7s;
+}
+
+.interest-video-info:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .interest-video-content { 
@@ -580,7 +620,9 @@ h3 {
 
 .skills-net-content1 { 
   grid-area: skills-net-content1;
-  background-color: aqua;
+  border-inline: 5px solid;
+  border-inline-color: #8e9eab;
+  background-color: #8e9eab;
   margin-bottom: 7%;
   margin-right: 3%;
 }
@@ -591,6 +633,12 @@ h3 {
   box-shadow: 2px 2px 15px #8e9eab;
   margin-left: 7%;
   margin-bottom: 7%;
+  transition-duration: 0.7s;
+}
+
+.skills-net-info1:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-net-info2 { 
@@ -599,28 +647,44 @@ h3 {
   box-shadow: 2px 2px 15px #8e9eab;
   margin-right: 17%;
   margin-bottom: 7%;
+  transition-duration: 0.7s;
+}
+
+.skills-net-info2:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-net-content2 { 
   grid-area: skills-net-content2;
-  background-color: green;
+  border-inline: 5px solid;
+  border-inline-color: #8e9eab;
+  background-color: #8e9eab;
   margin-bottom: 7%;
   margin-left: 3%;
 }
 
 .skills-net-content3 { 
   grid-area: skills-net-content3;
-  background-color: indigo;
+  border-inline: 5px solid;
+  border-inline-color: #8e9eab;
+  background-color: #8e9eab;
   margin-bottom: 7%;
   margin-right: 3%;
 }
 
-.skills-net-info-3 { 
+.skills-net-info3 { 
   grid-area: skills-net-info-3;
   background-image: linear-gradient(to right, #8e9eab, #eef2f3);
   box-shadow: 2px 2px 15px #8e9eab;
   margin-left: 13%;
   margin-bottom: 7%;
+  transition-duration: 0.7s;
+}
+
+.skills-net-info3:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-other-container {  
@@ -637,13 +701,21 @@ h3 {
   padding-bottom: 3%;
   padding-left: 2%;
   padding-right: 2%;
+  border-bottom: 5px solid;
+  border-color: #8e9eab;
 }
 
 .skills-other-info1 { 
   grid-area: skills-other-info1;
   background-image: linear-gradient(to top, #eef2f3, lightgrey );
   box-shadow: 2px 2px 15px #8e9eab;
-  margin-bottom: 7%; 
+  margin-bottom: 7%;
+  transition-duration: 0.7s;
+}
+
+.skills-other-info1:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-other-info2 { 
@@ -652,7 +724,13 @@ h3 {
   box-shadow: 2px 2px 15px #8e9eab;
   margin-bottom: 7%;
   margin-left: 5%;
-  margin-right: 5%; 
+  margin-right: 5%;
+  transition-duration: 0.7s;
+}
+
+.skills-other-info2:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-other-info3 { 
@@ -660,12 +738,17 @@ h3 {
   background-image: linear-gradient(to top, #eef2f3, lightgrey );
   box-shadow: 2px 2px 15px #8e9eab;
   margin-bottom: 7%;
+  transition-duration: 0.7s;
+}
+
+.skills-other-info3:hover {
+  box-shadow: 2px 2px 15px white;
+  transition-duration: 0.7s;
 }
 
 .skills-other-cotnent { 
   grid-area: skills-other-cotnent;
   margin-top: 3%; 
-  background-color: yellow;
 }
 
 .skills-text {
@@ -708,6 +791,8 @@ h5 {
   padding-top: 3%;
   padding-left: 1%;
   padding-right: 1%;
+  border-bottom: 5px solid;
+  border-color: #8e9eab;
 }
 
 
@@ -790,4 +875,43 @@ hr.Contactsolid {
   text-decoration: none;
   width: 50%;
   margin-left: 25%;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2%;
+  margin-left: 90%;
+  opacity: 30%;
+  transition-duration: 0.7s;
+}
+
+.back-to-top:hover {
+  transition-duration: 0.7s;
+  opacity: 100%;
+}
+
+.back-to-top-icon {
+  width: 30%;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+  transition-duration: 0.7s;
+}
+
+.back-to-top-icon:hover {
+  -webkit-filter: grayscale(0);
+  -webkit-animation: none;
+  -webkit-animation-iteration-count: infinite;
+	filter: grayscale(0);
+  transition-duration: 0.7s;
+}
+
+@-webkit-keyframes pulsate {
+  0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+  50% {opacity: 1.0;}
+  100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }
