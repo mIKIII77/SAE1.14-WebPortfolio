@@ -524,7 +524,7 @@ h3 {
 
 .interest-image-f { 
   grid-area: interest-image-f;
-  margin-top: 15%;
+  margin-top: 30%;
   margin-bottom: 10%;
   margin-right: 5%;
 }
@@ -544,7 +544,7 @@ h3 {
 
 .interest-image-s { 
   grid-area: interest-image-s;
-  margin-top:20%;
+  margin-top:30%;
   margin-left: 3%;
 }
 
